@@ -1,4 +1,8 @@
 package ru.pravvich;
 
-public interface Storeage {
+import java.util.List;
+
+public interface Storage {
+    Item save(Item item);
+    List<Item> getAll();
 }
